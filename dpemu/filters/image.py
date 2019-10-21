@@ -146,6 +146,18 @@ class Rotation(Filter):
         node_data[...] = resized[y0:y0 + height, x0:x0 + width]
 
 
+class RotationPIL(Filter):
+
+    def __init__(self, max_angle_id):
+        super().__init__()
+        self.max_angle_id = max_angle_id
+
+    def apply(self, node_data, random_state, named_dims):
+        angle = random_state.uniform(-self.max_angle, self.max_angle)
+        img = Image.fromarray(node_data).rotate(angle)
+        node_data[...] = np.array(img)
+
+
 class Brightness(Filter):
     """Increases or decreases brightness in the image.
 

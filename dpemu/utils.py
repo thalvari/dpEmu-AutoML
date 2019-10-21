@@ -23,6 +23,7 @@
 from datetime import datetime
 from os.path import join
 from pathlib import Path
+import tempfile
 
 
 def generate_unique_path(folder_name, extension, prefix=None):
@@ -50,6 +51,10 @@ def get_project_root():
         pathlib.PosixPath: The path to the root of the project.
     """
     return Path(__file__).resolve().parents[1]
+
+
+def generate_tmpdir(dir_name=get_project_root().joinpath("tmp/")):
+    return tempfile.mkdtemp(dir=dir_name)
 
 
 def get_data_dir():

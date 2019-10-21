@@ -22,7 +22,7 @@
 
 import time
 from collections import Counter
-from multiprocessing.pool import Pool
+from concurrent.futures import ProcessPoolExecutor as Pool
 from pickle import dump, load
 
 import pandas as pd
@@ -134,7 +134,7 @@ def get_result_with_model_params(model, model_params, train_data, test_data, res
         The results in a dict.
     """
     time_start = time.time()
-    result = model().run(train_data, test_data, model_params)
+    result = model().run(train_data, test_data, {**model_params, **result_base})
     result.update(result_base)
     time_mod = time.time() - time_start
     result["time_mod"] = round(time_mod, 3)
@@ -266,7 +266,7 @@ def get_total_results_from_workers(pool_inputs, n_err_params, n_processes):
     """
     total_results = []
     with Pool(n_processes) as pool:
-        for results in tqdm(pool.imap(worker, pool_inputs), total=n_err_params):
+        for results in tqdm(pool.map(worker, pool_inputs), total=n_err_params):
             total_results.extend(results)
     return total_results
 
@@ -289,7 +289,7 @@ def get_df_columns_base(err_params_list, model_params_dict_list):
     [model_param_columns.add(k) for model_params_dict in model_params_dict_list for params_list in
      model_params_dict["params_list"] for k, _ in params_list.items()]
     model_param_columns = sorted(model_param_columns)
-    return err_param_columns + model_param_columns + ["time_err", "time_pre", "time_mod"]
+    return err_param_columns + model_param_columns, ["time_err", "time_pre", "time_mod"]
 
 
 def order_df_columns(df, err_params_list, model_params_dict_list):
@@ -304,9 +304,9 @@ def order_df_columns(df, err_params_list, model_params_dict_list):
     Returns:
         The reindexed Dataframe.
     """
-    df_columns_base = get_df_columns_base(err_params_list, model_params_dict_list)
-    new_columns = [column for column in df.columns if column not in df_columns_base]
-    return df.reindex(columns=new_columns + df_columns_base)
+    param_columns, time_columns = get_df_columns_base(err_params_list, model_params_dict_list)
+    result_columns = [column for column in df.columns if column not in param_columns + time_columns]
+    return df.reindex(columns=param_columns + result_columns + time_columns)
 
 
 def run(train_data, test_data, preproc, preproc_params, err_root_node, err_params_list, model_params_dict_list,

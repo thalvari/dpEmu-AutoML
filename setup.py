@@ -27,7 +27,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="dpemu",
-    version="0.0.1",
+    version="0.1.0",
     author="Team dpEmu",
     # author_email="author@example.com",
     description="Tools for emulating data problems",

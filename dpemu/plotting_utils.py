@@ -26,7 +26,7 @@ import re
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
-from IPython.display import display, HTML
+from IPython.display import display
 from graphviz import Digraph
 from matplotlib.colors import LinearSegmentedColormap
 
@@ -35,7 +35,6 @@ from .utils import generate_unique_path, split_df_by_model, filter_optimized_res
 
 pd.set_option("display.expand_frame_repr", False)
 pd.set_option('display.max_columns', None)
-# pd.set_option('display.max_colwidth', -1)
 pd.set_option('display.max_rows', None)
 
 
@@ -519,6 +518,6 @@ def print_results_by_model(df, dropped_columns=[], err_param_name=None, pipeline
         display(df_.drop(columns=[pipeline_name]).style.hide_index())
         if err_param_name is not None and pipeline_name is not None:
             steps = df_[pipeline_name].apply(pd.Series)
-            steps = steps.rename(columns=lambda x: "pipe_"+str(x))
+            steps = steps.rename(columns=lambda x: "pipe_" + str(x))
             steps = pd.concat([df_[err_param_name][:], steps[:]], axis=1)
             display(steps.style.hide_index())

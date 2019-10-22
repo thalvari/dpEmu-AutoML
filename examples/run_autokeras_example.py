@@ -2,7 +2,7 @@ import autokeras as ak
 import numpy as np
 from numpy.random.mtrand import RandomState
 from sklearn.datasets import load_digits
-from sklearn.metrics import accuracy_score, classification_report
+from sklearn.metrics import accuracy_score
 from sklearn.model_selection import train_test_split
 
 from dpemu.utils import generate_tmpdir

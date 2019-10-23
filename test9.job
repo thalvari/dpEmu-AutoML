@@ -1,0 +1,10 @@
+#!/bin/bash
+#SBATCH -J dpEmu
+#SBATCH --workdir=/wrk/users/thalvari/dpEmu-AutoML/
+#SBATCH -o test9.txt
+#SBATCH -c 6
+#SBATCH --mem=368G
+#SBATCH -t 70:00:00
+
+srun papermill --log-output docs/case_studies/test9.ipynb docs/case_studies/test9.ipynb
+srun sleep 60

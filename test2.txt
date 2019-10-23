@@ -1,0 +1,1031 @@
+Input Notebook:  docs/case_studies/test2.ipynb
+Output Notebook: docs/case_studies/test2.ipynb
+Executing notebook with kernel: python3
+Executing Cell 1---------------------------------------
+Ending Cell 1------------------------------------------
+Executing Cell 2---------------------------------------
+Ending Cell 2------------------------------------------
+Executing Cell 3---------------------------------------
+/wrk/users/thalvari/dpEmu-AutoML/venv/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:526: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint8 = np.dtype([("qint8", np.int8, 1)])
+/wrk/users/thalvari/dpEmu-AutoML/venv/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:527: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint8 = np.dtype([("quint8", np.uint8, 1)])
+/wrk/users/thalvari/dpEmu-AutoML/venv/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:528: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint16 = np.dtype([("qint16", np.int16, 1)])
+/wrk/users/thalvari/dpEmu-AutoML/venv/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:529: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_quint16 = np.dtype([("quint16", np.uint16, 1)])
+/wrk/users/thalvari/dpEmu-AutoML/venv/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:530: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  _np_qint32 = np.dtype([("qint32", np.int32, 1)])
+/wrk/users/thalvari/dpEmu-AutoML/venv/lib/python3.6/site-packages/tensorflow/python/framework/dtypes.py:535: FutureWarning: Passing (type, 1) or '1type' as a synonym of type is deprecated; in a future version of numpy, it will be understood as (type, (1,)) / '(1,)type'.
+  np_resource = np.dtype([("resource", np.ubyte, 1)])
+
+Better speed can be achieved with apex installed from https://www.github.com/nvidia/apex.
+
+Using TensorFlow backend.
+
+Ending Cell 3------------------------------------------
+Executing Cell 4---------------------------------------
+Ending Cell 4------------------------------------------
+Executing Cell 5---------------------------------------
+Ending Cell 5------------------------------------------
+Executing Cell 6---------------------------------------
+Ending Cell 6------------------------------------------
+Executing Cell 7---------------------------------------
+Ending Cell 7------------------------------------------
+Executing Cell 8---------------------------------------
+Ending Cell 8------------------------------------------
+Executing Cell 9---------------------------------------
+Ending Cell 9------------------------------------------
+Executing Cell 10--------------------------------------
+Ending Cell 10-----------------------------------------
+Executing Cell 11--------------------------------------
+Ending Cell 11-----------------------------------------
+Executing Cell 12--------------------------------------
+Ending Cell 12-----------------------------------------
+Executing Cell 13--------------------------------------
+Ending Cell 13-----------------------------------------
+Executing Cell 14--------------------------------------
+Ending Cell 14-----------------------------------------
+Executing Cell 15--------------------------------------
+Ending Cell 15-----------------------------------------
+Executing Cell 16--------------------------------------
+Ending Cell 16-----------------------------------------
+Executing Cell 17--------------------------------------
+Ending Cell 17-----------------------------------------
+Executing Cell 18--------------------------------------
+Ending Cell 18-----------------------------------------
+Executing Cell 19--------------------------------------
+  0%|          | 0/6 [00:00<?, ?it/s]
+Checking whether there is an H2O instance running at http://localhost:54321 
+Checking whether there is an H2O instance running at http://localhost:54321 
+.
+.
+Checking whether there is an H2O instance running at http://localhost:54321 
+Checking whether there is an H2O instance running at http://localhost:54321 
+Checking whether there is an H2O instance running at http://localhost:54321 
+.
+.
+.
+Checking whether there is an H2O instance running at http://localhost:54321 
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+ not found.
+
+
+ not found.
+
+
+ not found.
+
+
+Attempting to start a local H2O server...
+ not found.
+
+
+
+
+Attempting to start a local H2O server...
+ not found.
+
+
+
+
+Attempting to start a local H2O server...
+
+
+Attempting to start a local H2O server...
+
+
+Attempting to start a local H2O server...
+
+
+ not found.
+
+
+Attempting to start a local H2O server...
+
+
+  Java Version: openjdk version "1.8.0_222"; OpenJDK Runtime Environment (build 1.8.0_222-b10); OpenJDK 64-Bit Server VM (build 25.222-b10, mixed mode)
+
+
+  Java Version: openjdk version "1.8.0_222"; OpenJDK Runtime Environment (build 1.8.0_222-b10); OpenJDK 64-Bit Server VM (build 25.222-b10, mixed mode)
+  Starting server from /wrk/users/thalvari/dpEmu-AutoML/venv/lib/python3.6/site-packages/h2o/backend/bin/h2o.jar
+
+
+
+
+  Starting server from /wrk/users/thalvari/dpEmu-AutoML/venv/lib/python3.6/site-packages/h2o/backend/bin/h2o.jar
+  Ice root: /wrk/users/thalvari/tmpkxf3tj_w
+
+
+
+
+  Java Version: openjdk version "1.8.0_222"; OpenJDK Runtime Environment (build 1.8.0_222-b10); OpenJDK 64-Bit Server VM (build 25.222-b10, mixed mode)
+  Ice root: /wrk/users/thalvari/tmp1_zzhv94
+  Java Version: openjdk version "1.8.0_222"; OpenJDK Runtime Environment (build 1.8.0_222-b10); OpenJDK 64-Bit Server VM (build 25.222-b10, mixed mode)
+
+
+
+
+
+
+  Starting server from /wrk/users/thalvari/dpEmu-AutoML/venv/lib/python3.6/site-packages/h2o/backend/bin/h2o.jar
+  Starting server from /wrk/users/thalvari/dpEmu-AutoML/venv/lib/python3.6/site-packages/h2o/backend/bin/h2o.jar
+
+
+  JVM stdout: /wrk/users/thalvari/tmpkxf3tj_w/h2o_thalvari_started_from_python.out
+
+
+  JVM stdout: /wrk/users/thalvari/tmp1_zzhv94/h2o_thalvari_started_from_python.out
+  Java Version: openjdk version "1.8.0_222"; OpenJDK Runtime Environment (build 1.8.0_222-b10); OpenJDK 64-Bit Server VM (build 25.222-b10, mixed mode)
+  Ice root: /wrk/users/thalvari/tmpikdh6cfx
+  Ice root: /wrk/users/thalvari/tmplqkjnkid
+
+
+
+
+
+
+
+
+
+
+  JVM stderr: /wrk/users/thalvari/tmpkxf3tj_w/h2o_thalvari_started_from_python.err
+  JVM stderr: /wrk/users/thalvari/tmp1_zzhv94/h2o_thalvari_started_from_python.err
+  Starting server from /wrk/users/thalvari/dpEmu-AutoML/venv/lib/python3.6/site-packages/h2o/backend/bin/h2o.jar
+
+
+
+
+
+
+  Ice root: /wrk/users/thalvari/tmpsim7kbdg
+  JVM stdout: /wrk/users/thalvari/tmpikdh6cfx/h2o_thalvari_started_from_python.out
+
+
+
+
+  JVM stderr: /wrk/users/thalvari/tmpikdh6cfx/h2o_thalvari_started_from_python.err
+  JVM stdout: /wrk/users/thalvari/tmplqkjnkid/h2o_thalvari_started_from_python.out
+
+
+
+
+  JVM stdout: /wrk/users/thalvari/tmpsim7kbdg/h2o_thalvari_started_from_python.out
+  JVM stderr: /wrk/users/thalvari/tmplqkjnkid/h2o_thalvari_started_from_python.err
+
+
+
+
+  JVM stderr: /wrk/users/thalvari/tmpsim7kbdg/h2o_thalvari_started_from_python.err
+
+
+  Java Version: openjdk version "1.8.0_222"; OpenJDK Runtime Environment (build 1.8.0_222-b10); OpenJDK 64-Bit Server VM (build 25.222-b10, mixed mode)
+
+
+  Starting server from /wrk/users/thalvari/dpEmu-AutoML/venv/lib/python3.6/site-packages/h2o/backend/bin/h2o.jar
+
+
+  Ice root: /wrk/users/thalvari/tmpak2s80kz
+
+
+  JVM stdout: /wrk/users/thalvari/tmpak2s80kz/h2o_thalvari_started_from_python.out
+
+
+  JVM stderr: /wrk/users/thalvari/tmpak2s80kz/h2o_thalvari_started_from_python.err
+
+
+  Server is running at http://127.0.0.1:54331
+
+
+  Server is running at http://127.0.0.1:54325
+  Server is running at http://127.0.0.1:54321
+
+
+
+
+Connecting to H2O server at http://127.0.0.1:54331 ..
+.
+Connecting to H2O server at http://127.0.0.1:54325 ..
+Connecting to H2O server at http://127.0.0.1:54321 ..
+  Server is running at http://127.0.0.1:54327
+.
+  Server is running at http://127.0.0.1:54323
+.
+
+
+
+
+Connecting to H2O server at http://127.0.0.1:54327 ..
+Connecting to H2O server at http://127.0.0.1:54323 ..
+.
+.
+  Server is running at http://127.0.0.1:54329
+
+
+Connecting to H2O server at http://127.0.0.1:54329 ..
+.
+ successful.
+ successful.
+
+
+
+
+ successful.
+
+
+ successful.
+ successful.
+
+
+
+
+ successful.
+
+
+--------------------------  ------------------------------------------------------------------
+H2O cluster uptime:         01 secs
+H2O cluster timezone:       Europe/Helsinki
+H2O data parsing timezone:  UTC
+H2O cluster version:        3.26.0.8
+H2O cluster version age:    4 days
+H2O cluster name:           #337309899
+H2O cluster total nodes:    1
+H2O cluster free memory:    26.67 Gb
+H2O cluster total cores:    18
+H2O cluster allowed cores:  18
+H2O cluster status:         accepting new members, healthy
+H2O connection url:         http://127.0.0.1:54323
+H2O connection proxy:       {'http': None, 'https': None}
+H2O internal security:      False
+H2O API Extensions:         Amazon S3, XGBoost, Algos, AutoML, Core V3, TargetEncoder, Core V4
+Python version:             3.6.6 final
+--------------------------  ------------------------------------------------------------------
+--------------------------  ------------------------------------------------------------------
+H2O cluster uptime:         01 secs
+H2O cluster timezone:       Europe/Helsinki
+H2O data parsing timezone:  UTC
+H2O cluster version:        3.26.0.8
+H2O cluster version age:    4 days
+H2O cluster name:           #667901170
+H2O cluster total nodes:    1
+H2O cluster free memory:    26.67 Gb
+H2O cluster total cores:    18
+H2O cluster allowed cores:  18
+H2O cluster status:         accepting new members, healthy
+H2O connection url:         http://127.0.0.1:54325
+H2O connection proxy:       {'http': None, 'https': None}
+H2O internal security:      False
+H2O API Extensions:         Amazon S3, XGBoost, Algos, AutoML, Core V3, TargetEncoder, Core V4
+Python version:             3.6.6 final
+--------------------------  ------------------------------------------------------------------
+--------------------------  ------------------------------------------------------------------
+H2O cluster uptime:         01 secs
+H2O cluster timezone:       Europe/Helsinki
+H2O data parsing timezone:  UTC
+H2O cluster version:        3.26.0.8
+H2O cluster version age:    4 days
+H2O cluster name:           #915618796
+H2O cluster total nodes:    1
+H2O cluster free memory:    26.67 Gb
+H2O cluster total cores:    18
+H2O cluster allowed cores:  18
+H2O cluster status:         accepting new members, healthy
+H2O connection url:         http://127.0.0.1:54329
+H2O connection proxy:       {'http': None, 'https': None}
+H2O internal security:      False
+H2O API Extensions:         Amazon S3, XGBoost, Algos, AutoML, Core V3, TargetEncoder, Core V4
+Python version:             3.6.6 final
+--------------------------  ------------------------------------------------------------------
+--------------------------  ------------------------------------------------------------------
+H2O cluster uptime:         01 secs
+H2O cluster timezone:       Europe/Helsinki
+H2O data parsing timezone:  UTC
+H2O cluster version:        3.26.0.8
+H2O cluster version age:    4 days
+H2O cluster name:           #1018648931
+H2O cluster total nodes:    1
+H2O cluster free memory:    26.67 Gb
+H2O cluster total cores:    18
+H2O cluster allowed cores:  18
+H2O cluster status:         accepting new members, healthy
+H2O connection url:         http://127.0.0.1:54331
+H2O connection proxy:       {'http': None, 'https': None}
+H2O internal security:      False
+H2O API Extensions:         Amazon S3, XGBoost, Algos, AutoML, Core V3, TargetEncoder, Core V4
+Python version:             3.6.6 final
+--------------------------  ------------------------------------------------------------------
+--------------------------  ------------------------------------------------------------------
+H2O cluster uptime:         01 secs
+H2O cluster timezone:       Europe/Helsinki
+H2O data parsing timezone:  UTC
+H2O cluster version:        3.26.0.8
+H2O cluster version age:    4 days
+H2O cluster name:           #16613927
+H2O cluster total nodes:    1
+H2O cluster free memory:    26.67 Gb
+H2O cluster total cores:    18
+H2O cluster allowed cores:  18
+H2O cluster status:         accepting new members, healthy
+H2O connection url:         http://127.0.0.1:54327
+H2O connection proxy:       {'http': None, 'https': None}
+H2O internal security:      False
+H2O API Extensions:         Amazon S3, XGBoost, Algos, AutoML, Core V3, TargetEncoder, Core V4
+Python version:             3.6.6 final
+--------------------------  ------------------------------------------------------------------
+--------------------------  ------------------------------------------------------------------
+H2O cluster uptime:         01 secs
+H2O cluster timezone:       Europe/Helsinki
+H2O data parsing timezone:  UTC
+H2O cluster version:        3.26.0.8
+H2O cluster version age:    4 days
+H2O cluster name:           #623205616
+H2O cluster total nodes:    1
+H2O cluster free memory:    26.67 Gb
+H2O cluster total cores:    18
+H2O cluster allowed cores:  18
+H2O cluster status:         accepting new members, healthy
+H2O connection url:         http://127.0.0.1:54321
+H2O connection proxy:       {'http': None, 'https': None}
+H2O internal security:      False
+H2O API Extensions:         Amazon S3, XGBoost, Algos, AutoML, Core V3, TargetEncoder, Core V4
+Python version:             3.6.6 final
+--------------------------  ------------------------------------------------------------------
+H2O session _sid_9445 closed.
+
+
+Checking whether there is an H2O instance running at http://localhost:54321 
+.
+.
+.
+.
+.
+ not found.
+
+
+Attempting to start a local H2O server...
+
+
+  Java Version: openjdk version "1.8.0_222"; OpenJDK Runtime Environment (build 1.8.0_222-b10); OpenJDK 64-Bit Server VM (build 25.222-b10, mixed mode)
+
+
+  Starting server from /wrk/users/thalvari/dpEmu-AutoML/venv/lib/python3.6/site-packages/h2o/backend/bin/h2o.jar
+
+
+  Ice root: /wrk/users/thalvari/tmp1_4ofhtr
+
+
+  JVM stdout: /wrk/users/thalvari/tmp1_4ofhtr/h2o_thalvari_started_from_python.out
+
+
+  JVM stderr: /wrk/users/thalvari/tmp1_4ofhtr/h2o_thalvari_started_from_python.err
+
+
+  Server is running at http://127.0.0.1:54323
+
+
+Connecting to H2O server at http://127.0.0.1:54323 ..
+.
+ successful.
+
+
+--------------------------  ------------------------------------------------------------------
+H2O cluster uptime:         06 secs
+H2O cluster timezone:       Europe/Helsinki
+H2O data parsing timezone:  UTC
+H2O cluster version:        3.26.0.8
+H2O cluster version age:    4 days
+H2O cluster name:           #624438180
+H2O cluster total nodes:    1
+H2O cluster free memory:    26.56 Gb
+H2O cluster total cores:    18
+H2O cluster allowed cores:  18
+H2O cluster status:         accepting new members, healthy
+H2O connection url:         http://127.0.0.1:54323
+H2O connection proxy:       {'http': None, 'https': None}
+H2O internal security:      False
+H2O API Extensions:         Amazon S3, XGBoost, Algos, AutoML, Core V3, TargetEncoder, Core V4
+Python version:             3.6.6 final
+--------------------------  ------------------------------------------------------------------
+H2O session _sid_b862 closed.
+
+
+Checking whether there is an H2O instance running at http://localhost:54321 
+.
+.
+.
+.
+.
+ not found.
+
+
+Attempting to start a local H2O server...
+
+
+  Java Version: openjdk version "1.8.0_222"; OpenJDK Runtime Environment (build 1.8.0_222-b10); OpenJDK 64-Bit Server VM (build 25.222-b10, mixed mode)
+
+
+  Starting server from /wrk/users/thalvari/dpEmu-AutoML/venv/lib/python3.6/site-packages/h2o/backend/bin/h2o.jar
+
+
+  Ice root: /wrk/users/thalvari/tmpj9w3cct8
+
+
+  JVM stdout: /wrk/users/thalvari/tmpj9w3cct8/h2o_thalvari_started_from_python.out
+
+
+  JVM stderr: /wrk/users/thalvari/tmpj9w3cct8/h2o_thalvari_started_from_python.err
+
+
+  Server is running at http://127.0.0.1:54321
+
+
+Connecting to H2O server at http://127.0.0.1:54321 ..
+.
+ successful.
+
+
+--------------------------  ------------------------------------------------------------------
+H2O cluster uptime:         05 secs
+H2O cluster timezone:       Europe/Helsinki
+H2O data parsing timezone:  UTC
+H2O cluster version:        3.26.0.8
+H2O cluster version age:    4 days
+H2O cluster name:           #974492840
+H2O cluster total nodes:    1
+H2O cluster free memory:    26.64 Gb
+H2O cluster total cores:    18
+H2O cluster allowed cores:  18
+H2O cluster status:         accepting new members, healthy
+H2O connection url:         http://127.0.0.1:54321
+H2O connection proxy:       {'http': None, 'https': None}
+H2O internal security:      False
+H2O API Extensions:         Amazon S3, XGBoost, Algos, AutoML, Core V3, TargetEncoder, Core V4
+Python version:             3.6.6 final
+--------------------------  ------------------------------------------------------------------
+H2O session _sid_aa2c closed.
+
+
+Checking whether there is an H2O instance running at http://localhost:54321 
+.
+.
+.
+.
+.
+ not found.
+
+
+Attempting to start a local H2O server...
+
+
+  Java Version: openjdk version "1.8.0_222"; OpenJDK Runtime Environment (build 1.8.0_222-b10); OpenJDK 64-Bit Server VM (build 25.222-b10, mixed mode)
+
+
+  Starting server from /wrk/users/thalvari/dpEmu-AutoML/venv/lib/python3.6/site-packages/h2o/backend/bin/h2o.jar
+
+
+  Ice root: /wrk/users/thalvari/tmpkow2b4hh
+
+
+  JVM stdout: /wrk/users/thalvari/tmpkow2b4hh/h2o_thalvari_started_from_python.out
+
+
+  JVM stderr: /wrk/users/thalvari/tmpkow2b4hh/h2o_thalvari_started_from_python.err
+
+
+  Server is running at http://127.0.0.1:54333
+
+
+Connecting to H2O server at http://127.0.0.1:54333 ..
+.
+ successful.
+
+
+--------------------------  ------------------------------------------------------------------
+H2O cluster uptime:         01 secs
+H2O cluster timezone:       Europe/Helsinki
+H2O data parsing timezone:  UTC
+H2O cluster version:        3.26.0.8
+H2O cluster version age:    4 days
+H2O cluster name:           #176891253
+H2O cluster total nodes:    1
+H2O cluster free memory:    26.67 Gb
+H2O cluster total cores:    18
+H2O cluster allowed cores:  18
+H2O cluster status:         accepting new members, healthy
+H2O connection url:         http://127.0.0.1:54333
+H2O connection proxy:       {'http': None, 'https': None}
+H2O internal security:      False
+H2O API Extensions:         Amazon S3, XGBoost, Algos, AutoML, Core V3, TargetEncoder, Core V4
+Python version:             3.6.6 final
+--------------------------  ------------------------------------------------------------------
+H2O session _sid_93d1 closed.
+
+
+Checking whether there is an H2O instance running at http://localhost:54321 
+.
+.
+.
+.
+.
+ not found.
+
+
+Attempting to start a local H2O server...
+
+
+  Java Version: openjdk version "1.8.0_222"; OpenJDK Runtime Environment (build 1.8.0_222-b10); OpenJDK 64-Bit Server VM (build 25.222-b10, mixed mode)
+
+
+  Starting server from /wrk/users/thalvari/dpEmu-AutoML/venv/lib/python3.6/site-packages/h2o/backend/bin/h2o.jar
+
+
+  Ice root: /wrk/users/thalvari/tmp8bmqgo1o
+
+
+  JVM stdout: /wrk/users/thalvari/tmp8bmqgo1o/h2o_thalvari_started_from_python.out
+
+
+  JVM stderr: /wrk/users/thalvari/tmp8bmqgo1o/h2o_thalvari_started_from_python.err
+
+
+  Server is running at http://127.0.0.1:54325
+
+
+Connecting to H2O server at http://127.0.0.1:54325 ..
+.
+ successful.
+
+
+--------------------------  ------------------------------------------------------------------
+H2O cluster uptime:         01 secs
+H2O cluster timezone:       Europe/Helsinki
+H2O data parsing timezone:  UTC
+H2O cluster version:        3.26.0.8
+H2O cluster version age:    4 days
+H2O cluster name:           #852886713
+H2O cluster total nodes:    1
+H2O cluster free memory:    26.67 Gb
+H2O cluster total cores:    18
+H2O cluster allowed cores:  18
+H2O cluster status:         accepting new members, healthy
+H2O connection url:         http://127.0.0.1:54325
+H2O connection proxy:       {'http': None, 'https': None}
+H2O internal security:      False
+H2O API Extensions:         Amazon S3, XGBoost, Algos, AutoML, Core V3, TargetEncoder, Core V4
+Python version:             3.6.6 final
+--------------------------  ------------------------------------------------------------------
+H2O session _sid_b93d closed.
+
+
+Checking whether there is an H2O instance running at http://localhost:54321 
+.
+.
+.
+.
+.
+ not found.
+
+
+Attempting to start a local H2O server...
+
+
+  Java Version: openjdk version "1.8.0_222"; OpenJDK Runtime Environment (build 1.8.0_222-b10); OpenJDK 64-Bit Server VM (build 25.222-b10, mixed mode)
+
+
+  Starting server from /wrk/users/thalvari/dpEmu-AutoML/venv/lib/python3.6/site-packages/h2o/backend/bin/h2o.jar
+
+
+  Ice root: /wrk/users/thalvari/tmpyowffev3
+
+
+  JVM stdout: /wrk/users/thalvari/tmpyowffev3/h2o_thalvari_started_from_python.out
+
+
+  JVM stderr: /wrk/users/thalvari/tmpyowffev3/h2o_thalvari_started_from_python.err
+
+
+H2O session _sid_9f7a closed.
+
+
+Checking whether there is an H2O instance running at http://localhost:54321 
+.
+.
+.
+.
+.
+  Server is running at http://127.0.0.1:54329
+
+
+Connecting to H2O server at http://127.0.0.1:54329 ..
+.
+ not found.
+
+
+ successful.
+
+
+Attempting to start a local H2O server...
+
+
+  Java Version: openjdk version "1.8.0_222"; OpenJDK Runtime Environment (build 1.8.0_222-b10); OpenJDK 64-Bit Server VM (build 25.222-b10, mixed mode)
+
+
+
+
+  Starting server from /wrk/users/thalvari/dpEmu-AutoML/venv/lib/python3.6/site-packages/h2o/backend/bin/h2o.jar
+  Ice root: /wrk/users/thalvari/tmpy0ex4egw
+
+
+  JVM stdout: /wrk/users/thalvari/tmpy0ex4egw/h2o_thalvari_started_from_python.out
+
+
+  JVM stderr: /wrk/users/thalvari/tmpy0ex4egw/h2o_thalvari_started_from_python.err
+
+
+--------------------------  ------------------------------------------------------------------
+H2O cluster uptime:         02 secs
+H2O cluster timezone:       Europe/Helsinki
+H2O data parsing timezone:  UTC
+H2O cluster version:        3.26.0.8
+H2O cluster version age:    4 days
+H2O cluster name:           #872243059
+H2O cluster total nodes:    1
+H2O cluster free memory:    26.67 Gb
+H2O cluster total cores:    18
+H2O cluster allowed cores:  18
+H2O cluster status:         accepting new members, healthy
+H2O connection url:         http://127.0.0.1:54329
+H2O connection proxy:       {'http': None, 'https': None}
+H2O internal security:      False
+H2O API Extensions:         Amazon S3, XGBoost, Algos, AutoML, Core V3, TargetEncoder, Core V4
+Python version:             3.6.6 final
+--------------------------  ------------------------------------------------------------------
+  Server is running at http://127.0.0.1:54327
+
+
+Connecting to H2O server at http://127.0.0.1:54327 ..
+.
+ successful.
+
+
+--------------------------  ------------------------------------------------------------------
+H2O cluster uptime:         02 secs
+H2O cluster timezone:       Europe/Helsinki
+H2O data parsing timezone:  UTC
+H2O cluster version:        3.26.0.8
+H2O cluster version age:    4 days
+H2O cluster name:           #128086894
+H2O cluster total nodes:    1
+H2O cluster free memory:    26.67 Gb
+H2O cluster total cores:    18
+H2O cluster allowed cores:  18
+H2O cluster status:         accepting new members, healthy
+H2O connection url:         http://127.0.0.1:54327
+H2O connection proxy:       {'http': None, 'https': None}
+H2O internal security:      False
+H2O API Extensions:         Amazon S3, XGBoost, Algos, AutoML, Core V3, TargetEncoder, Core V4
+Python version:             3.6.6 final
+--------------------------  ------------------------------------------------------------------
+H2O session _sid_8e97 closed.
+
+
+H2O session _sid_af56 closed.
+
+
+H2O session _sid_8c16 closed.
+
+
+H2O session _sid_9ee0 closed.
+
+
+H2O session _sid_85ed closed.
+
+
+H2O session _sid_9a0b closed.
+
+
+
+
+60.39065195 minutes have elapsed. TPOT will close down.
+TPOT closed during evaluation in one generation.
+WARNING: TPOT may not provide a good pipeline if TPOT is stopped/interrupted in a early generation.
+
+
+
+
+
+TPOT closed prematurely. Will use the current best pipeline.
+
+
+Best pipeline:
+ 
+GaussianNB(SelectPercentile(CombineDFs(XGBClassifier(CombineDFs(input_matrix, input_matrix), learning_rate=0.001, max_depth=2, min_child_weight=5, n_estimators=100, nthread=1, subsample=0.15000000000000002), input_matrix), percentile=64))
+
+
+/wrk/users/thalvari/dpEmu-AutoML/venv/lib/python3.6/site-packages/sklearn/preprocessing/_function_transformer.py:97: FutureWarning: The default validate=True will be replaced by validate=False in 0.22.
+  "validate=False in 0.22.", FutureWarning)
+
+/wrk/users/thalvari/dpEmu-AutoML/venv/lib/python3.6/site-packages/sklearn/preprocessing/_function_transformer.py:97: FutureWarning: The default validate=True will be replaced by validate=False in 0.22.
+  "validate=False in 0.22.", FutureWarning)
+
+/wrk/users/thalvari/dpEmu-AutoML/venv/lib/python3.6/site-packages/sklearn/preprocessing/_function_transformer.py:97: FutureWarning: The default validate=True will be replaced by validate=False in 0.22.
+  "validate=False in 0.22.", FutureWarning)
+
+/wrk/users/thalvari/dpEmu-AutoML/venv/lib/python3.6/site-packages/sklearn/preprocessing/_function_transformer.py:97: FutureWarning: The default validate=True will be replaced by validate=False in 0.22.
+  "validate=False in 0.22.", FutureWarning)
+
+/wrk/users/thalvari/dpEmu-AutoML/venv/lib/python3.6/site-packages/sklearn/preprocessing/_function_transformer.py:97: FutureWarning: The default validate=True will be replaced by validate=False in 0.22.
+  "validate=False in 0.22.", FutureWarning)
+
+/wrk/users/thalvari/dpEmu-AutoML/venv/lib/python3.6/site-packages/sklearn/preprocessing/_function_transformer.py:97: FutureWarning: The default validate=True will be replaced by validate=False in 0.22.
+  "validate=False in 0.22.", FutureWarning)
+
+
+
+62.11362418333333 minutes have elapsed. TPOT will close down.
+TPOT closed during evaluation in one generation.
+WARNING: TPOT may not provide a good pipeline if TPOT is stopped/interrupted in a early generation.
+
+
+
+
+
+TPOT closed prematurely. Will use the current best pipeline.
+
+
+Best pipeline:
+ 
+LogisticRegression(OneHotEncoder(SelectFwe(XGBClassifier(input_matrix, learning_rate=0.5, max_depth=8, min_child_weight=15, n_estimators=100, nthread=1, subsample=0.45), alpha=0.045), minimum_fraction=0.05, sparse=False, threshold=10), C=0.0001, dual=False, penalty=l2)
+
+
+
+
+60.293992249999995 minutes have elapsed. TPOT will close down.
+TPOT closed during evaluation in one generation.
+WARNING: TPOT may not provide a good pipeline if TPOT is stopped/interrupted in a early generation.
+
+
+
+
+
+TPOT closed prematurely. Will use the current best pipeline.
+
+
+Best pipeline:
+ 
+KNeighborsClassifier(MultinomialNB(SelectFwe(input_matrix, alpha=0.019), alpha=10.0, fit_prior=False), n_neighbors=42, p=2, weights=distance)
+
+
+
+
+61.269447883333335 minutes have elapsed. TPOT will close down.
+TPOT closed during evaluation in one generation.
+WARNING: TPOT may not provide a good pipeline if TPOT is stopped/interrupted in a early generation.
+
+
+
+
+
+TPOT closed prematurely. Will use the current best pipeline.
+
+
+
+
+60.56287721666667 minutes have elapsed. TPOT will close down.
+TPOT closed during evaluation in one generation.
+WARNING: TPOT may not provide a good pipeline if TPOT is stopped/interrupted in a early generation.
+
+
+
+
+
+TPOT closed prematurely. Will use the current best pipeline.
+
+
+Best pipeline:
+ 
+KNeighborsClassifier(MinMaxScaler(ExtraTreesClassifier(input_matrix, bootstrap=False, criterion=gini, max_features=0.9000000000000001, min_samples_leaf=6, min_samples_split=8, n_estimators=100)), n_neighbors=1, p=2, weights=distance)
+
+
+Best pipeline:
+ 
+LogisticRegression(DecisionTreeClassifier(RFE(PolynomialFeatures(input_matrix, degree=2, include_bias=False, interaction_only=False), criterion=entropy, max_features=0.6000000000000001, n_estimators=100, step=0.6000000000000001), criterion=gini, max_depth=4, min_samples_leaf=17, min_samples_split=5), C=0.001, dual=True, penalty=l2)
+
+
+
+
+64.07756483333334 minutes have elapsed. TPOT will close down.
+TPOT closed during evaluation in one generation.
+WARNING: TPOT may not provide a good pipeline if TPOT is stopped/interrupted in a early generation.
+
+
+
+
+
+TPOT closed prematurely. Will use the current best pipeline.
+
+
+Best pipeline:
+ 
+LogisticRegression(SelectFwe(input_matrix, alpha=0.035), C=0.0001, dual=True, penalty=l2)
+
+
+
+
+61.0124247 minutes have elapsed. TPOT will close down.
+TPOT closed during evaluation in one generation.
+WARNING: TPOT may not provide a good pipeline if TPOT is stopped/interrupted in a early generation.
+
+
+
+
+
+TPOT closed prematurely. Will use the current best pipeline.
+
+
+Best pipeline:
+ 
+KNeighborsClassifier(ExtraTreesClassifier(ZeroCount(OneHotEncoder(input_matrix, minimum_fraction=0.1, sparse=False, threshold=10)), bootstrap=False, criterion=entropy, max_features=0.6500000000000001, min_samples_leaf=2, min_samples_split=13, n_estimators=100), n_neighbors=4, p=2, weights=distance)
+
+
+
+
+60.282561099999995 minutes have elapsed. TPOT will close down.
+TPOT closed during evaluation in one generation.
+WARNING: TPOT may not provide a good pipeline if TPOT is stopped/interrupted in a early generation.
+
+
+
+
+
+TPOT closed prematurely. Will use the current best pipeline.
+
+
+Best pipeline:
+ 
+KNeighborsClassifier(ExtraTreesClassifier(ZeroCount(input_matrix), bootstrap=False, criterion=gini, max_features=0.9000000000000001, min_samples_leaf=6, min_samples_split=8, n_estimators=100), n_neighbors=1, p=2, weights=uniform)
+
+
+
+
+61.284871433333336 minutes have elapsed. TPOT will close down.
+TPOT closed during evaluation in one generation.
+WARNING: TPOT may not provide a good pipeline if TPOT is stopped/interrupted in a early generation.
+
+
+
+
+
+TPOT closed prematurely. Will use the current best pipeline.
+
+
+Best pipeline:
+ 
+KNeighborsClassifier(ExtraTreesClassifier(ZeroCount(input_matrix), bootstrap=False, criterion=gini, max_features=0.9000000000000001, min_samples_leaf=6, min_samples_split=8, n_estimators=100), n_neighbors=1, p=2, weights=uniform)
+
+
+
+
+64.91257811666667 minutes have elapsed. TPOT will close down.
+TPOT closed during evaluation in one generation.
+WARNING: TPOT may not provide a good pipeline if TPOT is stopped/interrupted in a early generation.
+
+
+
+
+
+TPOT closed prematurely. Will use the current best pipeline.
+
+
+Best pipeline:
+ 
+KNeighborsClassifier(ExtraTreesClassifier(ZeroCount(OneHotEncoder(input_matrix, minimum_fraction=0.1, sparse=False, threshold=10)), bootstrap=False, criterion=entropy, max_features=0.6500000000000001, min_samples_leaf=2, min_samples_split=13, n_estimators=100), n_neighbors=4, p=2, weights=distance)
+
+
+
+
+65.97045243333334 minutes have elapsed. TPOT will close down.
+TPOT closed during evaluation in one generation.
+WARNING: TPOT may not provide a good pipeline if TPOT is stopped/interrupted in a early generation.
+
+
+
+
+
+TPOT closed prematurely. Will use the current best pipeline.
+
+
+Best pipeline:
+ 
+KNeighborsClassifier(ExtraTreesClassifier(ZeroCount(OneHotEncoder(input_matrix, minimum_fraction=0.1, sparse=False, threshold=10)), bootstrap=False, criterion=entropy, max_features=0.6500000000000001, min_samples_leaf=2, min_samples_split=13, n_estimators=100), n_neighbors=4, p=2, weights=distance)
+
+
+
+
+63.42187465 minutes have elapsed. TPOT will close down.
+TPOT closed during evaluation in one generation.
+WARNING: TPOT may not provide a good pipeline if TPOT is stopped/interrupted in a early generation.
+
+
+
+
+
+TPOT closed prematurely. Will use the current best pipeline.
+
+
+Best pipeline:
+ 
+KNeighborsClassifier(MinMaxScaler(ExtraTreesClassifier(input_matrix, bootstrap=False, criterion=gini, max_features=0.9000000000000001, min_samples_leaf=6, min_samples_split=8, n_estimators=100)), n_neighbors=1, p=2, weights=distance)
+
+
+WARNING:root:TimeoutError occurred at train() : 
+
+
+WARNING:root:TimeoutError occurred at train() : 
+
+
+WARNING:root:TimeoutError occurred at train() : 
+
+
+WARNING:root:TimeoutError occurred at train() : 
+
+
+WARNING:root:TimeoutError occurred at train() : 
+
+
+WARNING:root:TimeoutError occurred at train() : 
+
+
+WARNING:root:TimeoutError occurred at train() : 
+
+
+WARNING:root:TimeoutError occurred at train() : 
+
+
+WARNING:root:TimeoutError occurred at train() : 
+
+
+ 17%|█▋        | 1/6 [5:58:39<29:53:19, 21519.94s/it]
+WARNING:root:TimeoutError occurred at train() : 
+
+
+ 50%|█████     | 3/6 [6:01:49<12:34:37, 15092.43s/it]
+WARNING:root:TimeoutError occurred at train() : 
+
+
+ 67%|██████▋   | 4/6 [6:05:05<5:54:06, 10623.33s/it] 
+WARNING:root:TimeoutError occurred at train() : 
+
+
+ 83%|████████▎ | 5/6 [6:05:14<2:03:59, 7439.11s/it] 
+100%|██████████| 6/6 [6:05:14<00:00, 3652.41s/it]  
+
+
+Ending Cell 19-----------------------------------------
+Executing Cell 20--------------------------------------
+'AutoKeras #1'
+<pandas.io.formats.style.Styler at 0x2af568755e48>
+<pandas.io.formats.style.Styler at 0x2af551b9f978>
+'AutoKerasClean #1'
+<pandas.io.formats.style.Styler at 0x2af568963be0>
+<pandas.io.formats.style.Styler at 0x2af568963828>
+'H2OAutoML #1'
+<pandas.io.formats.style.Styler at 0x2af5689dbc88>
+<pandas.io.formats.style.Styler at 0x2af568963780>
+'H2OAutoMLClean #1'
+<pandas.io.formats.style.Styler at 0x2af568963400>
+<pandas.io.formats.style.Styler at 0x2af58dcf8710>
+'TPOTClassifier #1'
+<pandas.io.formats.style.Styler at 0x2af5689574e0>
+<pandas.io.formats.style.Styler at 0x2af568957908>
+'TPOTClassifierClean #1'
+<pandas.io.formats.style.Styler at 0x2af56893dcf8>
+<pandas.io.formats.style.Styler at 0x2af568938dd8>
+<Figure size 720x288 with 2 Axes>
+Ending Cell 20-----------------------------------------
+Executing Cell 21--------------------------------------
+Ending Cell 21-----------------------------------------

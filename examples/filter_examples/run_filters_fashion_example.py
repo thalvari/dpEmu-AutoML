@@ -18,7 +18,7 @@ def main():
     x = x_train[k]
     y = y_train[k]
 
-    max_val = np.amax(x_train)
+    # max_val = np.amax(x_train)
     # std_steps = np.round(np.linspace(0, max_val, num=2), 3)
     max_angle_steps = np.round(np.linspace(0, 180, num=2), 3)
 

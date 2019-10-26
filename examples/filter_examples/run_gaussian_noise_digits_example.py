@@ -1,6 +1,6 @@
 import matplotlib.pyplot as plt
 import numpy as np
-from keras.datasets import mnist
+from keras.datasets import fashion_mnist
 
 from dpemu.filters.common import GaussianNoise, Clip
 from dpemu.nodes import Array
@@ -10,11 +10,12 @@ from dpemu.utils import get_project_root
 def main():
     # x, y = load_digits(return_X_y=True)
     # shape = (8, 8)
-    (x_train, y_train), _ = mnist.load_data()
+    (x_train, y_train), _ = fashion_mnist.load_data()
+    print(np.bincount(y_train))
     x_train = x_train.astype(np.float64)
     shape = (28, 28)
 
-    k = 0
+    k = 1
     x = x_train[k]
     y = y_train[k]
 

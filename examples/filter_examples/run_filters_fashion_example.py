@@ -2,7 +2,7 @@ import matplotlib.pyplot as plt
 import numpy as np
 from keras.datasets import fashion_mnist
 
-from dpemu.filters.image import RotationPIL
+from dpemu.filters.common import GaussianNoise, Clip
 from dpemu.nodes import Array
 from dpemu.utils import get_project_root
 
@@ -18,27 +18,23 @@ def main():
     x = x_train[k]
     y = y_train[k]
 
-    # max_val = np.amax(x_train)
-    # std_steps = np.round(np.linspace(0, max_val, num=2), 3)
-    max_angle_steps = np.round(np.linspace(0, 180, num=2), 3)
+    max_val = np.amax(x_train)
+    std_steps = np.round(np.linspace(0, max_val, num=6), 3)
+    # max_angle_steps = np.round(np.linspace(0, 180, num=6), 3)
 
-    fig, axs = plt.subplots(2, 2, constrained_layout=True)
+    fig, axs = plt.subplots(2, 3, constrained_layout=True)
     for i, ax in enumerate(axs.reshape(-1)):
-        if i % 2 == 0:
-            img_node = Array(reshape=shape)
-            img_node.addfilter(RotationPIL("max_angle"))
-            # img_node.addfilter(GaussianNoise("mean", "std"))
-            # img_node.addfilter(Clip("min_val", "max_val"))
-            res = img_node.generate_error(x, {"max_angle": max_angle_steps[i // 2]})
-            # res = img_node.generate_error(x, {"mean": 0, "std": std_steps[i // 2], "min_val": 0, "max_val": max_val})
-            res = np.round(res)
-            ax.imshow(res.reshape(shape), cmap="gray_r")
-            ax.axis("off")
-            ax.set_title(f"Max angle: {max_angle_steps[i // 2]}")
-            # ax.set_title(f"Std: {std_steps[i // 2]}")
-        else:
-            ax.imshow(x.reshape(shape), cmap="gray_r")
-            ax.axis("off")
+        img_node = Array(reshape=shape)
+        # img_node.addfilter(RotationPIL("max_angle"))
+        img_node.addfilter(GaussianNoise("mean", "std"))
+        img_node.addfilter(Clip("min_val", "max_val"))
+        # res = img_node.generate_error(x, {"max_angle": max_angle_steps[i]})
+        res = img_node.generate_error(x, {"mean": 0, "std": std_steps[i], "min_val": 0, "max_val": max_val})
+        res = np.round(res)
+        ax.imshow(res.reshape(shape), cmap="gray_r")
+        ax.axis("off")
+        # ax.set_title(f"Max angle: {max_angle_steps[i]}")
+        ax.set_title(f"Std: {std_steps[i]}")
     fig.suptitle(f"Label: {y}")
     plt.savefig(get_project_root().joinpath("out/gaussian_noise.png"))
     plt.show()

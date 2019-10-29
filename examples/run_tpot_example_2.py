@@ -15,6 +15,9 @@ random_state = RandomState(seed)
 # )
 
 (x_train, y_train), (x_test, y_test) = fashion_mnist.load_data()
+s = x_train.shape[1]
+x_train = x_train.reshape((len(x_train), s ** 2))
+x_test = x_test.reshape((len(x_test), s ** 2))
 
 clf = TPOTClassifier(
     max_time_mins=60,

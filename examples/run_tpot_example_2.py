@@ -18,7 +18,7 @@ random_state = RandomState(seed)
 
 clf = TPOTClassifier(
     max_time_mins=60,
-    n_jobs=-1,
+    n_jobs=32,
     random_state=seed,
     verbosity=2,
 )

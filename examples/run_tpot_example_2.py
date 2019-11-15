@@ -16,7 +16,8 @@ if __name__ == '__main__':
     x_train, x_test, y_train, y_test = train_test_split(
         x,
         y,
-        test_size=.25,
+        train_size=.1,
+        test_size=.1,
         random_state=random_state
     )
     x_train = x_train.astype(np.uint8)
@@ -32,18 +33,14 @@ if __name__ == '__main__':
     client = Client()
 
     clf = TPOTClassifier(
-        # generations=1,
-        # population_size=1,
-        max_time_mins=1,
-        max_eval_time_mins=1,
+        max_time_mins=.5,
+        max_eval_time_mins=.5,
         n_jobs=-1,
         random_state=seed,
         verbosity=1,
-        # use_dask=True,
     )
     with joblib.parallel_backend("dask"):
         clf.fit(x_train, y_train)
-    # clf.fit(x_train, y_train)
 
     y_pred = clf.predict(x_test)
     print(accuracy_score(y_test, y_pred))

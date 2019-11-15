@@ -36,8 +36,8 @@ if __name__ == '__main__':
     client = Client()
 
     clf = TPOTClassifier(
-        max_time_mins=.5,
-        max_eval_time_mins=.5,
+        max_time_mins=1,
+        max_eval_time_mins=1,
         n_jobs=-1,
         random_state=seed,
         verbosity=1,

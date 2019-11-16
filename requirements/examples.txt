@@ -1,8 +1,5 @@
 Keras
 TPOT
 autokeras
-dask
-dask-ml
-distributed
 h2o
 xgboost

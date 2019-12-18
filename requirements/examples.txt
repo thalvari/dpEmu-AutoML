@@ -1,5 +1,5 @@
 Keras
-TPOT
-autokeras
-h2o
-xgboost
+TPOT==0.11.0
+autokeras==0.4.0
+h2o==3.26.0.10
+xgboost==0.90

@@ -1,0 +1,271 @@
+Input Notebook:  docs/case_studies/test7.ipynb
+Output Notebook: docs/case_studies/test7.ipynb
+Executing notebook with kernel: python3
+Executing Cell 1---------------------------------------
+Ending Cell 1------------------------------------------
+Executing Cell 2---------------------------------------
+Ending Cell 2------------------------------------------
+Executing Cell 3---------------------------------------
+Ending Cell 3------------------------------------------
+Executing Cell 4---------------------------------------
+Better speed can be achieved with apex installed from https://www.github.com/nvidia/apex.
+
+Using TensorFlow backend.
+
+Ending Cell 4------------------------------------------
+Executing Cell 5---------------------------------------
+Ending Cell 5------------------------------------------
+Executing Cell 6---------------------------------------
+Ending Cell 6------------------------------------------
+Executing Cell 7---------------------------------------
+Ending Cell 7------------------------------------------
+Executing Cell 8---------------------------------------
+Ending Cell 8------------------------------------------
+Executing Cell 9---------------------------------------
+Ending Cell 9------------------------------------------
+Executing Cell 10--------------------------------------
+Ending Cell 10-----------------------------------------
+Executing Cell 11--------------------------------------
+Ending Cell 11-----------------------------------------
+Executing Cell 12--------------------------------------
+Ending Cell 12-----------------------------------------
+Executing Cell 13--------------------------------------
+Ending Cell 13-----------------------------------------
+Executing Cell 14--------------------------------------
+Ending Cell 14-----------------------------------------
+Executing Cell 15--------------------------------------
+Ending Cell 15-----------------------------------------
+Executing Cell 16--------------------------------------
+Ending Cell 16-----------------------------------------
+Executing Cell 17--------------------------------------
+Ending Cell 17-----------------------------------------
+Executing Cell 18--------------------------------------
+Ending Cell 18-----------------------------------------
+Executing Cell 19--------------------------------------
+Ending Cell 19-----------------------------------------
+Executing Cell 20--------------------------------------
+  0%|          | 0/6 [00:00<?, ?it/s]
+
+
+364.72 minutes have elapsed. TPOT will close down.
+TPOT closed during evaluation in one generation.
+WARNING: TPOT may not provide a good pipeline if TPOT is stopped/interrupted in a early generation.
+
+
+
+
+
+TPOT closed prematurely. Will use the current best pipeline.
+
+
+Best pipeline:
+ 
+GradientBoostingClassifier(RFE(input_matrix, criterion=gini, max_features=0.45, n_estimators=100, step=0.8), learning_rate=0.1, max_depth=10, max_features=0.05, min_samples_leaf=11, min_samples_split=9, n_estimators=100, subsample=0.35000000000000003)
+
+
+<class 'tpot.tpot.TPOTClassifier'>
+
+
+0.882
+
+
+
+
+422.96 minutes have elapsed. TPOT will close down.
+TPOT closed during evaluation in one generation.
+WARNING: TPOT may not provide a good pipeline if TPOT is stopped/interrupted in a early generation.
+
+
+
+
+
+TPOT closed prematurely. Will use the current best pipeline.
+
+
+Best pipeline:
+ 
+GradientBoostingClassifier(RFE(input_matrix, criterion=gini, max_features=0.45, n_estimators=100, step=0.8), learning_rate=0.1, max_depth=10, max_features=0.05, min_samples_leaf=11, min_samples_split=9, n_estimators=100, subsample=0.35000000000000003)
+
+
+<class 'tpot.tpot.TPOTClassifier'>
+
+
+0.882
+
+
+ 17%|█▋        | 1/6 [15:16:24<76:22:00, 54984.14s/it]
+
+
+361.69 minutes have elapsed. TPOT will close down.
+TPOT closed during evaluation in one generation.
+WARNING: TPOT may not provide a good pipeline if TPOT is stopped/interrupted in a early generation.
+
+
+
+
+
+TPOT closed prematurely. Will use the current best pipeline.
+
+
+Best pipeline:
+ 
+XGBClassifier(input_matrix, learning_rate=0.1, max_depth=5, min_child_weight=12, n_estimators=100, nthread=1, subsample=0.8)
+
+
+<class 'tpot.tpot.TPOTClassifier'>
+
+
+0.834
+
+
+
+
+440.64 minutes have elapsed. TPOT will close down.
+TPOT closed during evaluation in one generation.
+WARNING: TPOT may not provide a good pipeline if TPOT is stopped/interrupted in a early generation.
+
+
+
+
+
+TPOT closed prematurely. Will use the current best pipeline.
+
+
+Best pipeline:
+ 
+GradientBoostingClassifier(RFE(input_matrix, criterion=gini, max_features=0.45, n_estimators=100, step=0.8), learning_rate=0.1, max_depth=10, max_features=0.05, min_samples_leaf=11, min_samples_split=9, n_estimators=100, subsample=0.35000000000000003)
+
+
+<class 'tpot.tpot.TPOTClassifier'>
+
+
+0.663
+
+
+ 33%|███▎      | 2/6 [30:57:03<61:34:43, 55420.75s/it]
+
+
+361.84 minutes have elapsed. TPOT will close down.
+TPOT closed during evaluation in one generation.
+WARNING: TPOT may not provide a good pipeline if TPOT is stopped/interrupted in a early generation.
+
+
+
+
+
+TPOT closed prematurely. Will use the current best pipeline.
+
+
+Best pipeline:
+ 
+LinearSVC(MinMaxScaler(input_matrix), C=20.0, dual=False, loss=squared_hinge, penalty=l2, tol=1e-05)
+
+
+<class 'tpot.tpot.TPOTClassifier'>
+
+
+0.774
+
+
+
+
+430.91 minutes have elapsed. TPOT will close down.
+TPOT closed during evaluation in one generation.
+WARNING: TPOT may not provide a good pipeline if TPOT is stopped/interrupted in a early generation.
+
+
+
+
+
+TPOT closed prematurely. Will use the current best pipeline.
+
+
+Best pipeline:
+ 
+GradientBoostingClassifier(RFE(input_matrix, criterion=gini, max_features=0.45, n_estimators=100, step=0.8), learning_rate=0.1, max_depth=10, max_features=0.05, min_samples_leaf=11, min_samples_split=9, n_estimators=100, subsample=0.35000000000000003)
+
+
+<class 'tpot.tpot.TPOTClassifier'>
+
+
+0.416
+
+
+ 50%|█████     | 3/6 [45:15:31<45:12:20, 54246.91s/it]
+
+
+362.19 minutes have elapsed. TPOT will close down.
+TPOT closed during evaluation in one generation.
+WARNING: TPOT may not provide a good pipeline if TPOT is stopped/interrupted in a early generation.
+
+
+
+
+
+TPOT closed prematurely. Will use the current best pipeline.
+
+
+Best pipeline:
+ 
+LogisticRegression(input_matrix, C=25.0, dual=False, penalty=l1)
+
+
+<class 'tpot.tpot.TPOTClassifier'>
+
+
+0.746
+
+
+
+
+430.30 minutes have elapsed. TPOT will close down.
+TPOT closed during evaluation in one generation.
+WARNING: TPOT may not provide a good pipeline if TPOT is stopped/interrupted in a early generation.
+
+
+
+
+
+TPOT closed prematurely. Will use the current best pipeline.
+
+
+Best pipeline:
+ 
+GradientBoostingClassifier(RFE(input_matrix, criterion=gini, max_features=0.45, n_estimators=100, step=0.8), learning_rate=0.1, max_depth=10, max_features=0.05, min_samples_leaf=11, min_samples_split=9, n_estimators=100, subsample=0.35000000000000003)
+
+
+<class 'tpot.tpot.TPOTClassifier'>
+
+
+0.298
+
+
+ 67%|██████▋   | 4/6 [59:40:07<29:44:30, 53535.48s/it]
+
+
+361.87 minutes have elapsed. TPOT will close down.
+TPOT closed during evaluation in one generation.
+WARNING: TPOT may not provide a good pipeline if TPOT is stopped/interrupted in a early generation.
+
+
+
+
+
+TPOT closed prematurely. Will use the current best pipeline.
+
+
+Best pipeline:
+ 
+LogisticRegression(input_matrix, C=25.0, dual=False, penalty=l1)
+
+
+<class 'tpot.tpot.TPOTClassifier'>
+
+
+0.702
+
+
+srun: Job step aborted: Waiting up to 32 seconds for job step to finish.
+slurmstepd: error: *** JOB 6187072 ON ukko2-paavo CANCELLED AT 2019-12-18T22:44:05 ***
+slurmstepd: error: *** STEP 6187072.0 ON ukko2-paavo CANCELLED AT 2019-12-18T22:44:05 ***
+[IPKernelApp] WARNING | Parent appears to have exited, shutting down.
